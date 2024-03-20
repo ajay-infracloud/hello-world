@@ -5,7 +5,7 @@ metadata:
   annotations:
     'github.com/project-slug': ajay-infracloud/hello-world
     'backstage.io/kubernetes-id': 'app.kubernetes.io/instance=hello-world'
-    'argocd/app-name': 'voting-app1234'
+    'argocd/app-name': 'hello-world'
 spec:
   type: service
   lifecycle: unknown
