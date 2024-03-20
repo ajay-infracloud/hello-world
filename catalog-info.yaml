@@ -3,8 +3,9 @@ kind: Component
 metadata:
   name: hello-world
   annotations:
-    github.com/project-slug: ajay-infracloud/hello-world
+    'github.com/project-slug': ajay-infracloud/hello-world
     'backstage.io/kubernetes-id': 'app.kubernetes.io/instance=hello-world'
+    'argocd/app-name': 'voting-app1234'
 spec:
   type: service
   lifecycle: unknown
