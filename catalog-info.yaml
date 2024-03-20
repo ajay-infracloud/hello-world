@@ -4,6 +4,7 @@ metadata:
   name: hello-world
   annotations:
     github.com/project-slug: ajay-infracloud/hello-world
+    'backstage.io/kubernetes-id': 'app.kubernetes.io/instance=hello-world'
 spec:
   type: service
   lifecycle: unknown
