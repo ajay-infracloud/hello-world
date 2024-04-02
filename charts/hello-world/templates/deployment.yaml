@@ -13,6 +13,7 @@ spec:
   template:
     metadata:
       labels:
+        app-name: hello-world
         {{- include "hello-world.selectorLabels" . | nindent 8 }}
     spec:
       serviceAccountName: {{ include "hello-world.serviceAccountName" . }}
