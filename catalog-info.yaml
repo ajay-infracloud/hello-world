@@ -4,7 +4,7 @@ metadata:
   name: hello-world
   annotations:
     'github.com/project-slug': ajay-infracloud/hello-world
-    'backstage.io/kubernetes-label-selector': 'app-name=hello-world'
+    'backstage.io/kubernetes-label-selector': 'app-name: hello-world'
     # 'backstage.io/kubernetes-id': 'backstage.io/kubernetes-id: hello-world'
     'argocd/app-name': 'hello-world'
 spec:
